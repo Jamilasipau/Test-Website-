@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Channels Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Telegram Channels Portal</h1>
+      <p>Discover amazing channels curated just for you!</p>
+    </div>
+  </header>
+
+  <section class="search-bar">
+    <div class="container">
+      <input type="text" id="searchInput" placeholder="Search Channels..." onkeyup="searchChannels()">
+    </div>
+  </section>
+
+  <section class="channel-list">
+    <div class="container">
+      <div id="channels">
+        <!-- Channel 1 -->
+        <div class="channel-card">
+          <img src="https://via.placeholder.com/150" alt="Channel 1">
+          <h2>Channel 1</h2>
+          <p>Your go-to channel for the latest news.</p>
+          <a href="https://t.me/join_hyponet" target="_blank">Join Now</a>
+        </div>
+        <!-- Channel 2 -->
+        <div class="channel-card">
+          <img src="https://via.placeholder.com/150" alt="Channel 2">
+          <h2>Channel 2</h2>
+          <p>Explore technology and programming tips here.</p>
+          <a href="https://t.me/join_hyponet" target="_blank">Join Now</a>
+        </div>
+        <!-- Add more channels here -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Your Portal. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
